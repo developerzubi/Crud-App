@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: aliceblue;
+  font-weight: 500;
+}
+.linkcus{
+ @apply bg-purple-700 text-white font-medium rounded-lg py-2 px-[10px];
+}
+.input-group{
+  @apply flex flex-col justify-center w-full
+} 
